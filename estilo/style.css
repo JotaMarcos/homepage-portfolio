@@ -62,10 +62,29 @@ h2, h4, h6 {
 }
 
 .profile__especialidade {
-    display: grid;
-    grid-template-columns: 200px 200px 200px;
+    padding: 3em 0;
+	background: #888888;
+
     
 
+}
+
+
+.profile__especialidade li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px 10px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.profile__especialidade li:hover {
+    border-color: #C78C19;
+    padding: 40px 30px 10px;
 }
 
 .profile__social, .footer__social {
